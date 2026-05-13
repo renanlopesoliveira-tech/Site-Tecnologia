@@ -7,14 +7,10 @@
 :root {
     --cor-principal: #1a56db;
     --cor-destaque: #0f3a9e;
-    --cor-fundo: #f4f6fb;
-    --cor-fundo-cards: #ffffff;
+    --cor-branco: #f4f6fb;
     --cor-fundo-rodape: #111827;
     --cor-texto: #1a1a2e;
     --cor-texto-suave: #4b5563;
-    --cor-texto-claro: #ffffff;
-    --cor-borda: #d1d5db;
-    --cor-tag: #dbeafe;
     --cor-tag-texto: #1a56db;
 
     --fonte-titulo: 'DM Serif Display', serif;
@@ -29,7 +25,7 @@
 
 body {
     font-family: var(--fonte-corpo);
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-branco);
     color: var(--cor-texto);
 }
 
@@ -41,7 +37,7 @@ body {
     width: 100%;
     padding: var(--padding-secao);
     gap: 60px;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-branco);
 }
 
 .conteudo-hero {
@@ -58,7 +54,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: var(--cor-tag-texto);
-    background-color: var(--cor-tag);
+    background-color: var(--cor-branco);
     padding: 6px 14px;
 }
 
@@ -87,7 +83,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--cor-principal);
-    color: var(--cor-texto-claro);
+    color: var(--cor-branco);
     font-family: var(--fonte-corpo);
     font-size: 0.9rem;
     font-weight: 600;
@@ -108,7 +104,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 14px 28px;
-    border: 1.5px solid var(--cor-borda);
+    border: 1.5px solid var(--cor-branco);
 }
 
 .imagem-hero {
@@ -131,7 +127,7 @@ body {
     width: 100%;
     padding: var(--padding-secao);
     gap: 50px;
-    background-color: var(--cor-fundo-cards);
+    background-color: var(--cor-branco);
 }
 
 .cabecalho-areas {
@@ -172,7 +168,7 @@ body {
     justify-content: flex-start;
     gap: 14px;
     flex: 1;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-branco);
     padding: 20px;
 }
 
@@ -208,7 +204,7 @@ body {
     width: 100%;
     padding: var(--padding-secao);
     gap: 60px;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-branco);
 }
 
 .conteudo-sobre {
@@ -283,6 +279,6 @@ body {
 .rodape-texto {
     font-family: var(--fonte-corpo);
     font-size: 1rem;
-    color: var(--cor-texto-claro);
+    color: var(--cor-branco);
     
 }
