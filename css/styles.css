@@ -8,7 +8,6 @@
     --cor-principal: #1a56db;
     --cor-destaque: #0f3a9e;
     --cor-branco: #f4f6fb;
-    --cor-fundo-rodape: #111827;
     --cor-texto: #1a1a2e;
     --cor-texto-suave: #4b5563;
     --cor-tag-texto: #1a56db;
@@ -273,7 +272,7 @@ body {
     justify-content: center;
     width: 100%;
     height: var(--altura-rodape);
-    background-color: var(--cor-fundo-rodape);
+    background-color: var(--cor-texto);
 }
 
 .rodape-texto {
