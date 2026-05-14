@@ -9,8 +9,8 @@
     --cor-destaque: #0f3a9e;
     --cor-branco: #f4f6fb;
     --cor-texto: #1a1a2e;
-    --cor-texto-suave: #4b5563;
-    --cor-tag-texto: #1a56db;
+    --cor-texto-claro: #4b5563;
+    --cor-azul_mais_forte: #1a56db;
 
     --fonte-titulo: 'DM Serif Display', serif;
     --fonte-corpo: 'DM Sans', sans-serif;
@@ -52,7 +52,7 @@ body {
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--cor-tag-texto);
+    color: var(--cor-azul_mais_forte);
     background-color: var(--cor-branco);
     padding: 6px 14px;
 }
@@ -66,7 +66,7 @@ body {
 
 .descricao-hero {
     font-size: 1.1rem;
-    color: var(--cor-texto-suave);
+    color: var(--cor-texto-claro);
     max-width: 480px;
 
 }
@@ -142,7 +142,7 @@ body {
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--cor-tag-texto);
+    color: var(--cor-azul_mais_forte);
 }
 
 .titulo-areas {
@@ -192,7 +192,7 @@ body {
 
 .texto-card {
     font-size: 1rem;
-    color: var(--cor-texto-suave);
+    color: var(--cor-texto-claro);
    
 }
 
@@ -220,7 +220,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--cor-tag-texto);
+    color: var(--cor-azul_mais_forte);
 }
 
 .titulo-sobre {
@@ -232,7 +232,7 @@ body {
 
 .texto-sobre {
     font-size: 1rem;
-    color: var(--cor-texto-suave);
+    color: var(--cor-texto-claro);
     max-width: 480px;
 }
 
@@ -248,7 +248,7 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 0.95rem;
-    color: var(--cor-texto);
+    color: var(--cor-texto-claro);
     font-weight: 500;
     padding-left: 16px;
     border-left: 3px solid var(--cor-principal);
